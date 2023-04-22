@@ -1,39 +1,10 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"Delay takes place due to the ____________ of capacitor.","answers":{"a":"Charging","b":"Discharging"},"correctAnswer":"a"},
+{"question":"Delay effect is achieved through the use of","answers":{"a":"Resistor","b":"Transistor","c":"Clock","d":"Capacitor"},"correctAnswer":"d"},
+{"question":"Delay in circuit will become longer when","answers":{"a":"Both resistor and capacitor values are big.","b":"Both resistor and capacitor values are small.","c":"Capacitor has big value and resistor has small value.","d":"Capacitor has small value and resistor has big value."},"correctAnswer":"a"},
+{"question":"Using provided components in this experiment, we obtain delay of","answers":{"a":"5 sec.","b":"6 sec.","c":"7 sec.","d":"8 sec."},"correctAnswer":"c"},
+{"question":"If a low to high propagation delay is 1s and high to low propagation delay is 3s then total propagation delay will be","answers":{"a":"2s","b":"3s","c":"4s","d":"5s"},"correctAnswer":"a"},
+{"question":"The operating mode of 555 timer IC in this experiment to obtain a Delay Before Turn On Circuit the circuit is","answers":{"a":"Astable mode","b":"Monostable mode","c":"Bistable mode","d":"None of these"},"correctAnswer":"a"},
+{"question":"The circuit shown below acts as an","image":"<img src='images/posttestques7.png'/>","answers":{"a":"Astable multivibrator","b":"Monostable multivibrator","c":"Bistable multivibrator","d":"Sweep generator"},"correctAnswer":"a"},
+{"question":"The output of a Astable circuit is","answers":{"a":"Low until a triggered is received.","b":"Constantly switches between two states.","c":"Floats until triggered.","d":"High until a triggered is received."},"correctAnswer":"b"},
+{"question":"The reset pin of IC 555 is normally connected to","answers":{"a":"Vcc","b":"Ground","c":"Trigger","d":"Threshold"},"correctAnswer":"a"},
+{"question":"In the astable multivibrator circuit shown in the figure, the frequency of oscillation (in KHz) at the output pin 3 is","image":"<img src='images/posttestques10.png'/>","answers":{"a":"5.55 - 5.75","b":"5.00 - 5.25","c":"5.25 - 5.50","d":"5.80 - 6.00"},"correctAnswer":"a"}]

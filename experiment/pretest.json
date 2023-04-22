@@ -1,39 +1,10 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"The internal circuitry of the 555 Timer IC consists of ______, an RS flip flop, a transistor switch, an output buffer amplifier and a voltage divider.","answers":{"a":"A comparator","b":"A voltage amplifier","c":"Two comparators","d":"A peak detector"},"correctAnswer":"c"},
+{"question":"What is the function of the comparator in the 555 Timer circuit?","answers":{"a":"To compare the output voltages to the internal voltage divider.","b":"To compare the input voltages to the internal voltage divider.","c":"To compare the output voltages to the external voltage divider.","d":"To compare the input voltages to the external voltage divider."},"correctAnswer":"b"},
+{"question":"What does the discharge transistor do in the 555 Timer circuit?","answers":{"a":"Charge the external capacitor to stop the timing.","b":"Charge the external capacitor to start the timing over again.","c":"Discharge the external capacitor to stop the timing.","d":"Discharge the external capacitor to start the timing over again."},"correctAnswer":"d"},
+{"question":"What controls the output pulse width of a one shot?","answers":{"a":"The clock frequency.","b":"The width of the clock pulse.","c":"An RL time constant.","d":"An RC time constant."},"correctAnswer":"d"},
+{"question":"A retriggerable one shot has a pulse of 10 ms. 3 ms after being triggered, another trigger pulse is applied. The resulting output pulse will be _____ ms.","answers":{"a":"3","b":"7","c":"10","d":"13"},"correctAnswer":"d"},
+{"question":"What is the difference between a retriggerable one shot and a non retriggerable one shot?","answers":{"a":"The non retriggerable can only be triggered once.","b":"The retriggerable can be triggered many times.","c":"The output pulse can be stretched with a non retriggerable.","d":"The output pulse can be stretched with a retriggerale."},"correctAnswer":"d"},
+{"question":"Which mode of operation is being used when a 555 Timer chip has two external resistors and an external capacitor?","answers":{"a":"Monostable","b":"Pulse stretching","c":"Schmitt triggering","d":"Astable"},"correctAnswer":"d"},
+{"question":"The frequency of operation of an astable multivibrator using 555 Timer IC is given by","answers":{"a":"0.724/RC","b":"1.38RC","c":"0.69RC","d":"RC/0.724"},"correctAnswer":"a"},
+{"question":"In an astable multivibrator using 555 Timer IC the capacitor always charge between","answers":{"a":"0 and Vcc","b":"0 and 2/3 Vcc","c":"1/3 Vcc and 2/3 Vcc","d":"None"},"correctAnswer":"c"},
+{"question":"With reference to astable mode of operation of 555 Timer IC which one of the following statements is true?","answers":{"a":"Trigger terminal is always shorted to the threshold terminal.","b":"Reset terminal is always grounded.","c":"Reset terminal is always at Vcc.","d":"Trigger terminal is left open."},"correctAnswer":"a"}]
