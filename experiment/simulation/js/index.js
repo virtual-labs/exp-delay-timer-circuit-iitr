@@ -112,6 +112,15 @@ function checkCircuit() {
         g.addEdge(connections[key].endpoints[0].getParameter('groupName'), connections[key].endpoints[1].getParameter('groupName'));
     }
 
+    var edges= (g.numberofedges);
+    console.log('edges:'+edges)
+    if(edges == 0)
+    {
+        alert("No connections present.");   
+        return;
+    }
+     
+
    if(
        g.isConnected('VCC','c_A') && g.isConnected('c_B','ic_TR') && g.isConnected('ic_TR','r1_A') && g.isConnected('ic_TH','r1_A') && g.isConnected('r1_B','GND')
        && (g.isConnected('ic_VCC','VCC') && g.isConnected('ic_GND','GND')) && (g.isConnected('ic_R','VCC') 
