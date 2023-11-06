@@ -66,8 +66,8 @@
 
             <div class="bottom">
                 <div>
-                    <button id="check" onclick="checkCircuit()">Check Connection</button>
-                    <button id="reset" onclick="reload()">Reset</button>
+                    <button id="check" onclick="checkCircuit()" disabled >Check Connection</button>
+                    <button id="reset" onclick="reload()" disabled>Reset</button>
                 </div>
 
             </div>
@@ -80,14 +80,15 @@
                         <button class="close-btn" id="close-btn"><span>&#10005</span></button>
                    
                     <ol type="1" style="padding-left:20px;">
+                        <li>Click on the components button to place the component.</li>
                         <li>Make connections as per the circuit diagram and pin diagram of IC.</li>
                         <figure style="margin-bottom: 10px">
                             <img src="./images/image002.jpg" style="height: 240px; margin-left: 70px; ;">
-                            <figcaption style="text-align: center;">Fig. Circuit diagram of Delay before Turn ON Timer</figcaption>
+                            <figcaption style="text-align: center;">Fig. 1 Circuit diagram of Delay before Turn ON Timer</figcaption>
                           </figure>
                           <figure style="margin-bottom: 10px">
                             <img src="./images/image004.jpg" style="height: 150px; margin-left: 100px;">
-                            <figcaption style="text-align: center;">Fig. Pin diagram of IC 555</figcaption>
+                            <figcaption style="text-align: center;">Fig. 2 Pin diagram of IC 555</figcaption>
                           </figure>
                         <li>Click on <b>'Check Connections'</b> button. If connections are right, click on ‘OK’, then Simulation will become active. </li>
                         <li>Observe the Delay Time before the circuit turns on (LED glows).</li>
@@ -108,26 +109,27 @@
                 <button class="right_btn" id="second">Components</button>
 
                 <div>
-                    <button onclick="breadboard()">Breadboard</button>
-                    <button onclick="supply()">Supply</button>
+                    <button id="breadbutton" onclick="breadboard()">Breadboard</button>
+                    <button id="supplybutton" onclick="supply()">Supply</button>
                 </div>
                 <div>
-                    <button onclick="c()">100&mu;F Capacitor</button>
-                    <button onclick="ic()">555 Timer IC</button>
+                    <button id="c1button" onclick="c()">100&mu;F Capacitor</button>
+                    <button id="icbutton" onclick="ic()">555 Timer IC</button>
                 </div>
                 <div>
-                    <button onclick="r1()">47K&#8486; Resistor</button>
-                    <button onclick="r2()">470&#8486; Resistor</button>
+                    <button id="r1button" onclick="r1()">47K&#8486; Resistor</button>
+                    <button id="r2button" onclick="r2()">470&#8486; Resistor</button>
                 </div>
                 <div>
-                    <button onclick="led()">LED</button>
+                    <button id="ledbutton" onclick="led()">LED</button>
                 </div>
             </div>
 
         </div>
     </div>
+    
     <div id="copyright">
-        <h5>&copy; Copyright 2022 Virtual Labs, IIT Roorkee</h5>
+        <p style="font-weight:bold">&copy; Copyright 2022 Virtual Labs, IIT Roorkee</p>
     </div>
     <script src="js/right_components.js"></script>
 </body>
