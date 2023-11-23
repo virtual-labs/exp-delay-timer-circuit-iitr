@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Analog and Digital Electronics-II
-<b> Experiment|     <b>7. To design a delay timer circuit using 555 timer IC
+<b> Experiment|     <b>6. To design a delay timer circuit using 555 timer IC
 
 ### About the Experiment 
 
