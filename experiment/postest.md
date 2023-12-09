@@ -20,10 +20,10 @@ C     Clock
 
 Q3. Delay in circuit will become longer when
 
-<b>A     Both resistor and capacitor values are big.</b>  
-B     Both resistor and capacitor values are small.  
-C     Capacitor has big value and resistor has small value.  
-D     Capacitor has small value and resistor has big value.  
+<b>A     Both resistor and capacitor values are big</b>  
+B     Both resistor and capacitor values are small  
+C     Capacitor has big value and resistor has small value  
+D     Capacitor has small value and resistor has big value  
 <br>
   
 
@@ -67,10 +67,10 @@ D     Sweep generator
 
 Q8. The output of a Astable circuit is
 
-A     Low until a triggered is received.  
-<b>B     Constantly switches between two states.</b>  
-C     Floats until triggered.  
-D     High until a triggered is received.    
+A     Low until a triggered is received  
+<b>B     Constantly switches between two states</b>  
+C     Floats until triggered  
+D     High until a triggered is received    
 <br>
   
 
